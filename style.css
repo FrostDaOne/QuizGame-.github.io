@@ -1,0 +1,29 @@
+body{
+   background-image: url('images.jpg');
+   background-size: 100%;
+    background-attachment: fixed;
+}
+
+.header{
+    font-size: 40px;
+    color: purple;
+    font-family: Comic Sans MS;
+}
+
+.q1{
+    font-size: 20px;
+    color: purple;
+    font-family: Comic Sans MS;
+}
+
+input[type=submit]{
+    background-color: black;
+    font-size: 20px;
+    color: blue;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: lime;
+    margin: 0% 120% 0% 0%;
+    text-align: center;
+}

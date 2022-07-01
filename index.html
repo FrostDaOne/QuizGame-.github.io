@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link src="script.js" type="text/javascript">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="download.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <script type="text/javascript">
+       function result(){
+            var score=1;
+            if (document.getElementById('check1').checked)
+            {
+                score++;
+            }
+            if (document.getElementById('check2').checked)
+            {
+                score++;
+            }
+            if (document.getElementById('check3').checked)
+            {
+                score++;
+            }
+            if (document.getElementById('check4').checked)
+            {
+                score++;
+            }
+            alert("Your score is:"+score);
+        }
+        </script>
+    <header>
+        <center>
+            <div class="header">
+            <span>
+                Quiz Game!
+            </span>
+            </div>
+        </center>
+    </header>
+    <hr>
+    <img src="images.png" align="right">
+    <span>
+        <div class="q1">
+            <span style="color:red;"><span style="color:gold;">Q1.</span> Who invented Java Script?<br></span>
+            <input type="radio" name="q1"id="check1">Brendan Eich<br>
+            <input type="radio" name="q1">Guido van Rossum<br>
+            <input type="radio" name="q1">James Gosling<br>
+            <input type="radio" name="q1">Bjarne Stroustrup<br> 
+        </div>
+    </span>
+    <br>
+    <br>
+    <span>
+        <div class="q1">
+            <span style="color:red;"><span style="color:gold;">Q2.</span>  What is the first programming language?<br></span>
+            <input type="radio" name="q2">Lisp<br>
+            <input type="radio" name="q2"id="check2">Fortan<br>
+            <input type="radio" name="q2">Pascal<br>
+            <input type="radio" name="q2">Cobol<br> 
+        </div>
+    </span>
+    <br>
+    <br>
+    <span>
+        <div class="q1">
+            <span style="color:red;"><span style="color:gold;">Q3.</span>  What is the latest programming language?<br></span>
+            <input type="radio" name="q3">Java<br>
+            <input type="radio" name="q3">C++<br>
+            <input type="radio" name="q3">C<br>
+            <input type="radio" name="q3"id="check3">Python<br> 
+        </div>
+    </span>
+    <br>
+    <br>
+    <span>
+        <div class="q1">
+            <span style="color:red;"><span style="color:gold;">Q4.</span>  What is the most used and popular programming language?<br></span>
+            <input type="radio" name="q4">Python<br>
+            <input type="radio" name="q4">PHP<br>
+            <input type="radio" name="q4"id="check4">Java Script<br>
+            <input type="radio" name="q4">Java<br> 
+        </div>
+    </span>
+    <br>
+    <br>
+    <br>
+      <pre>                           <input type="submit" value="submit" onclick="result()"></pre>
+</body>
+</html>
